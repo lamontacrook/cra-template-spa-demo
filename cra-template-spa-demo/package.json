@@ -1,6 +1,33 @@
 {
     "name": "cra-template-spa-demo",
-    "version": "1.0.0",
+    "version": "1.1.2",
+    "keywords": [
+      "react",
+      "create-react-app",
+      "template"
+    ],
+    "description": "The base template for Create React App.",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lamontacrook/cra-template-spa-demo.git",
+      "directory": "packages/cra-template-spa-demo"
+    },
+    "license": "MIT",
+    "engines": {
+      "node": ">=14"
+    },
+    "bugs": {
+      "url": "https://github.com/lamontacrook/cra-template-spa-demo/issues"
+    },
+    "files": [
+      "template",
+      "template.json"
+    ]
+  }
+
+  {
+    "name": "cra-template-my-custom-template",
+    "version": "1.0.8",
     "keywords": [
       "react",
       "create-react-app",

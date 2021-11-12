@@ -1,16 +1,28 @@
-  {
-    "package": {
-      "dependencies": {
-        "eslint-plugin-jsx-a11y": "^6.2.3",
-        "serve": "^11.2.0"
-      },
-      "scripts": {
-        "serve": "serve -s build",
-        "build-and-serve": "npm run build && npm run serve"
-      },
-      "eslintConfig": {
-        "extends": ["react-app", "plugin:jsx-a11y/recommended"],
-        "plugins": ["jsx-a11y"]
-      }
-    }
+{
+    "name": "cra-template-spa-demo",
+    "version": "1.1.2",
+    "keywords": [
+      "react",
+      "create-react-app",
+      "template"
+    ],
+    "description": "The base template for Create React App.",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lamontacrook/cra-template-spa-demo.git",
+      "directory": "packages/cra-template-spa-demo"
+    },
+    "license": "MIT",
+    "engines": {
+      "node": ">=14"
+    },
+    "bugs": {
+      "url": "https://github.com/lamontacrook/cra-template-spa-demo/issues"
+    },
+    "files": [
+      "template",
+      "template.json"
+    ]
   }
+
+  

@@ -1,23 +1,23 @@
 {
-    "name": "@lamont/cra-template-aem-spa-demo",
+    "name": "@lamont/cra-template-spa-demo",
     "version": "0.0.1",
     "keywords": [
       "react",
       "create-react-app",
       "template"
     ],
-    "description": "The base template for Create React App.",
+    "description": "Template to create a structure for building a custom SPA Editor/GQL demo.",
     "repository": {
       "type": "git",
-      "url": "https://github.com/facebook/create-react-app.git",
-      "directory": "packages/cra-template"
+      "url": "https://github.com/lamontacrook/cra-template-spa-demo",
+      "directory": "/"
     },
     "license": "MIT",
     "engines": {
       "node": ">=14"
     },
     "bugs": {
-      "url": "https://github.com/facebook/create-react-app/issues"
+      "url": "https://github.com/lamontacrook/cra-template-spa-demo/issues"
     },
     "files": [
       "template",

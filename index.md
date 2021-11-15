@@ -124,3 +124,18 @@ module.exports = function (app) {
 };
 ```
 
+To get up and running.
+
+1. Update .env.development file.
+2. Import the necessary librarys to App.js
+
+```
+import {V2Image} from './components/aem/core/v2-image';
+import {ModelManager} from '@adobe/aem-spa-page-model-manager';
+import { contentPath } from './utils';
+```
+
+3. Update the app code.  Add `ModelManager.initializeAsync(contentPath);` before return statement.
+
+4. Implement the V2Image component ex. `<V2Image pagePath={contentPath} itemPath="root/image" />`.
+

@@ -3,7 +3,7 @@
 This a custom Create REACT App template to use when you want to create a custom demo.  To get up and running issue the follow command:
 
 ```
-npx create-react-app <Name of new app> --template @lamont/cra-template--spa-demo
+npx create-react-app <Name of new app> --template @lamont/cra-template-spa-demo
 ```
 
 The changes this makes to the standard template are:
